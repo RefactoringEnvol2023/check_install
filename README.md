@@ -1,6 +1,4 @@
-# README
-
-Prérequis pour le cours Refactoring d'Envol 2023
+# Prérequis pour le cours Refactoring d'Envol 2023
 
 ## Checklist
 
@@ -18,6 +16,11 @@ Prérequis pour le cours Refactoring d'Envol 2023
     * [Linux](https://docs.python.org/fr/3/using/unix.html)
 * S'assurer que vous pouver [créer un environnement virtuel](https://code-club.io.ias.u-psud.fr//docs/install/install-virtualenv.html)
   * Si vous avez des difficultés sous debian, installer `sudo apt-get install python3-venv`
+* Installer les libraries suivant avec `pip`
+```
+python -m pip install -U pip
+python -m pip install pytest pytest-sugar coverage
+```  
  
 ### Pycharm
 
