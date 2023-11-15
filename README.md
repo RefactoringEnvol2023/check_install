@@ -97,12 +97,12 @@ deactivate
 pip install -U pip
 pip install pytest pytest-sugar coverage
 ```
-* Créer un fichier `../my_module.py` à la racine
+* Créer un fichier `./my_module.py` à la racine du projet
 ```
 def fn(a, b):
   return f'{a}:{b}'
 ```
-* Créer un fichier `./pytest.ini`
+* Créer un fichier `./pytest.ini` dans le même répertoire
 ```ini
 [pytest]
 pythonpath = .
